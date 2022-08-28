@@ -1,0 +1,48 @@
+﻿生成启动时间为 2022/6/3 10:41:01。
+     1>项目“C:\Users\menhs\Desktop\CityU\论文\多智能体博弈\论文\代码\最终代码\Github version\TugofWar5\All in one\TugofWar1.0\TugofWar1.0.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TUP.cpp CAP.cpp Greedy.cpp Prepare.cpp main.cpp
+         main.cpp
+         Prepare.cpp
+         Greedy.cpp
+     1>c:\users\menhs\desktop\cityu\论文\多智能体博弈\论文\代码\最终代码\github version\tugofwar5\all in one\tugofwar1.0\greedy.cpp(12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\menhs\desktop\cityu\论文\多智能体博弈\论文\代码\最终代码\github version\tugofwar5\all in one\tugofwar1.0\greedy.cpp(84): warning C4101: “y”: 未引用的局部变量
+     1>c:\users\menhs\desktop\cityu\论文\多智能体博弈\论文\代码\最终代码\github version\tugofwar5\all in one\tugofwar1.0\greedy.cpp(84): warning C4101: “x”: 未引用的局部变量
+     1>c:\users\menhs\desktop\cityu\论文\多智能体博弈\论文\代码\最终代码\github version\tugofwar5\all in one\tugofwar1.0\greedy.cpp(84): warning C4101: “z”: 未引用的局部变量
+         CAP.cpp
+     1>c:\users\menhs\desktop\cityu\论文\多智能体博弈\论文\代码\最终代码\github version\tugofwar5\all in one\tugofwar1.0\cap.cpp(11): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\menhs\desktop\cityu\论文\多智能体博弈\论文\代码\最终代码\github version\tugofwar5\all in one\tugofwar1.0\cap.cpp(163): warning C4018: “<”: 有符号/无符号不匹配
+         TUP.cpp
+     1>c:\users\menhs\desktop\cityu\论文\多智能体博弈\论文\代码\最终代码\github version\tugofwar5\all in one\tugofwar1.0\tup.cpp(10): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+         正在生成代码...
+     1>c:\users\menhs\desktop\cityu\论文\多智能体博弈\论文\代码\最终代码\github version\tugofwar5\all in one\tugofwar1.0\cap.cpp(257): warning C4715: “Agent::Simulator”: 不是所有的控件路径都返回值
+     1>c:\users\menhs\desktop\cityu\论文\多智能体博弈\论文\代码\最终代码\github version\tugofwar5\all in one\tugofwar1.0\greedy.cpp(208): warning C4715: “Agent::Simulator”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\menhs\Desktop\CityU\论文\多智能体博弈\论文\代码\最终代码\Github version\TugofWar5\All in one\Debug\TugofWar1.0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\menhs\Desktop\CityU\论文\多智能体博弈\论文\代码\最终代码\Github version\TugofWar5\All in one\Debug\TugofWar1.0.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\menhs\Desktop\CityU\论文\多智能体博弈\论文\代码\最终代码\Github version\TugofWar5\All in one\Debug\TugofWar1.0.lib" /MACHINE:X86 Debug\TUP.obj
+         Debug\CAP.obj
+         Debug\Greedy.obj
+         Debug\Prepare.obj
+         Debug\main.obj
+     1>CAP.obj : error LNK2005: "public: __thiscall Agent::Agent(int)" (??0Agent@@QAE@H@Z) 已经在 TUP.obj 中定义
+     1>CAP.obj : error LNK2005: "public: void __thiscall Agent::ChooseAction(void)" (?ChooseAction@Agent@@QAEXXZ) 已经在 TUP.obj 中定义
+     1>CAP.obj : error LNK2005: "public: void __thiscall Agent::GetResultant(void)" (?GetResultant@Agent@@QAEXXZ) 已经在 TUP.obj 中定义
+     1>CAP.obj : error LNK2005: "public: void __thiscall Agent::OChooseAction(void)" (?OChooseAction@Agent@@QAEXXZ) 已经在 TUP.obj 中定义
+     1>CAP.obj : error LNK2005: "public: void __thiscall Agent::ResetAgents(void)" (?ResetAgents@Agent@@QAEXXZ) 已经在 TUP.obj 中定义
+     1>CAP.obj : error LNK2005: "public: void __thiscall Agent::ResetAll(void)" (?ResetAll@Agent@@QAEXXZ) 已经在 TUP.obj 中定义
+     1>CAP.obj : error LNK2005: "public: bool __thiscall Agent::Simulator(void)" (?Simulator@Agent@@QAE_NXZ) 已经在 TUP.obj 中定义
+     1>CAP.obj : error LNK2005: "public: void __thiscall Agent::TakeAction(void)" (?TakeAction@Agent@@QAEXXZ) 已经在 TUP.obj 中定义
+     1>CAP.obj : error LNK2005: "public: void __thiscall Agent::UpdateQvalue(int,double)" (?UpdateQvalue@Agent@@QAEXHN@Z) 已经在 TUP.obj 中定义
+     1>Greedy.obj : error LNK2005: "public: __thiscall Agent::Agent(int)" (??0Agent@@QAE@H@Z) 已经在 TUP.obj 中定义
+     1>Greedy.obj : error LNK2005: "public: void __thiscall Agent::GetResultant(void)" (?GetResultant@Agent@@QAEXXZ) 已经在 TUP.obj 中定义
+     1>Greedy.obj : error LNK2005: "public: void __thiscall Agent::OChooseAction(void)" (?OChooseAction@Agent@@QAEXXZ) 已经在 TUP.obj 中定义
+     1>Greedy.obj : error LNK2005: "public: void __thiscall Agent::ResetAgents(void)" (?ResetAgents@Agent@@QAEXXZ) 已经在 TUP.obj 中定义
+     1>Greedy.obj : error LNK2005: "public: void __thiscall Agent::ResetAll(void)" (?ResetAll@Agent@@QAEXXZ) 已经在 TUP.obj 中定义
+     1>Greedy.obj : error LNK2005: "public: bool __thiscall Agent::Simulator(void)" (?Simulator@Agent@@QAE_NXZ) 已经在 TUP.obj 中定义
+     1>Greedy.obj : error LNK2005: "public: void __thiscall Agent::TakeAction(void)" (?TakeAction@Agent@@QAEXXZ) 已经在 TUP.obj 中定义
+     1>Greedy.obj : error LNK2005: "public: void __thiscall Agent::UpdateQvalue(int,double)" (?UpdateQvalue@Agent@@QAEXHN@Z) 已经在 TUP.obj 中定义
+     1>C:\Users\menhs\Desktop\CityU\论文\多智能体博弈\论文\代码\最终代码\Github version\TugofWar5\All in one\Debug\TugofWar1.0.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“C:\Users\menhs\Desktop\CityU\论文\多智能体博弈\论文\代码\最终代码\Github version\TugofWar5\All in one\TugofWar1.0\TugofWar1.0.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:06.71
